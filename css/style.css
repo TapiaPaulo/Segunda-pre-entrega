@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.img_principal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.img_principal p {
+    display: flex;
+    justify-items: center;
+
+
+
+}
+
+img {
+    width: 48%;
+}
+
+.contenedor_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 144px;
+    padding: 60px;
+}
+
+/* CONTACTO */
+.contacto {
+    margin-bottom: 50px;
+
+
+}
+
+.contacto_titulo {
+    text-align: center;
+}
+
+.contacto_descripcion {
+    text-align: center;
+}
+
+.formulario {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    height: 100%;
+    background-color: #000000d1;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.form input {
+
+    text-align: left;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+
+.texto {
+    text-align: center;
+    width: 100%;
+}
+
+.texto textarea {
+    width: 100%;
+    text-align: left;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    border: 1px solid;
+
+}
+
+.boton {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.btn_enviar {
+    border: 3px solid rgba(100, 100, 100, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 255px;
+    font-family: poppins;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background-size: 300%;
+    background-image: linear-gradient(to left, #000000, #050505, #0a0a0a);
+}
+
+.contedor_acerca {
+    display: flex;
+    justify-content: center;
+
+}
+
+.contedor_acerca p {
+    margin-top: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .img_principal {
+        width: 100%;
+    }
+}
