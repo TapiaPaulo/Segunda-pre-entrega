@@ -6,6 +6,7 @@
 }
 
 
+
 .titulo {
     display: flex;
     justify-content: center;
@@ -131,8 +132,12 @@ img {
     margin-top: 200px;
 }
 
+footer {
+    align-self: flex-end;
+}
+
 @media screen and (min-width: 768px) {
     .img_principal {
-        width: 100%;
+       ;
     }
 }
